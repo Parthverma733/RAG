@@ -1,0 +1,15 @@
+{
+    "name": null,
+    "input_variables": [
+        "paper_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are a research assistant.\n\nAnalyze the following research paper and provide:\n\n1. Title\n2. Research Problem\n3. Methodology\n4. Dataset Used\n5. Key Findings\n6. Limitations\n7. Future Work\n8. Simple Explanation for Beginners\n\nResearch Paper:\n{paper_input}\n\nResponse:",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
